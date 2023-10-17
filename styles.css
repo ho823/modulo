@@ -1,0 +1,57 @@
+section {
+  width: 50%;
+  height: 50vh;
+  font-family: 'Mooli', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 7px -1px 21px -6px rgba(0,0,0,0.23);
+  border: solid 0.8px rgba(168, 168, 168, 0.23);
+  border-radius: 0.2rem;
+  margin: auto;
+}
+#color-counter {
+
+}
+#squares {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+
+}
+.color-square {
+  width: 5rem;
+  height: 5rem;
+}
+
+#coral {
+  background-color: crimson;
+}
+#yellow {
+  background-color: palegoldenrod;
+}
+#blue {
+  background-color: steelblue; 
+}
+
+#time {
+  font-family: 'Inclusive Sans', sans-serif;
+}
+#button-container {
+  display: grid;
+  grid-row: 1;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+button {
+  background-color: transparent;
+  border: solid 3px rgba(168, 168, 168, 0.23);
+  border-radius: 0.2rem;
+  width: 62px;
+  height: 62px;
+}
+
+.gg-redo, .gg-play-button {
+  margin: auto;
+}
